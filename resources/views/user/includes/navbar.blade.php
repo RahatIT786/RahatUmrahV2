@@ -1,4 +1,4 @@
-<section>
+
             <!-- Navbar Start -->
             <div class="container-fluid nav-bar bg-transparent">
             <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
@@ -93,6 +93,4 @@
             </nav>
         </div>
         <!-- Navbar End -->
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
-</section>
+       

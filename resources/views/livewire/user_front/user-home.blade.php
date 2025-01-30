@@ -1,5 +1,39 @@
 <section>
-            <!-- Header Start -->
+    {{-- <style>
+        @media (min-width: 992px) {
+    .header {
+        min-height: 600px; /* Adjust the value as needed */
+    }
+
+    .header .owl-carousel-item img {
+        height: 100%; /* Ensure the carousel images cover the height */
+        object-fit: cover; /* Ensure the images fit properly */
+    }
+}
+
+    </style> --}}
+     <!-- Header Start -->
+     <div class="container-fluid header bg-white p-0" style="height: 90vh;!important"> 
+        <div class="row g-0  flex-column-reverse flex-md-row">
+            <div class="col-md-6 p-5 " style="margin-top: 15vw;">
+                <h1 class="display-5 animated fadeIn mb-4">Rahat Travels of India <span class="text-primary">Your Trusted Partner</span> for Umrah & Hajj Services!</h1>
+                <p class="animated fadeIn mb-4 pb-2">Embark on a spiritually enriching journey with our exclusive Umrah and Hajj packages. Experience seamless travel, premium accommodations, and guided pilgrimages</p>
+                <a href="" class="btn btn-primary py-3 px-5 me-3 animated fadeIn">Enquire Here</a>
+            </div>
+            <div class="col-md-6 animated fadeIn" style="height: 90vh;!important">
+                <div class="owl-carousel header-carousel"  style="height: 90vh;!important">
+                    <div class="owl-carousel-item"  style="height: 90vh;!important">
+                        <img class="img-fluid"  style=" object-fit: cover;" src="{{asset('images/users/ayse.jpg')}}" alt="">
+                    </div>
+                    <div class="owl-carousel-item"  style="height: 90vh;!important">
+                        <img class="img-fluid"   src="{{asset('images/users/haidan.jpg')}}" alt="" style="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+            {{-- <!-- Header Start -->
             <div class="container-fluid header bg-white p-0">
             <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
                 <div class="col-md-12 animated fadeIn" style="padding: 0;">
@@ -7,9 +41,9 @@
                 </div>
             </div>
         </div>
-        <!-- Header End -->
+        <!-- Header End --> --}}
         <!-- Team Start -->
-        <div class="py-5">
+        <div class="py-5 mt-4" >
     <div class="container">
         <div class="row g-5 align-items-center">
             <!-- Left Section: Heading and Description -->

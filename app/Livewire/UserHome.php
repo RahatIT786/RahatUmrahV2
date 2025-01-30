@@ -6,6 +6,7 @@ use App\Models\Package;
 use App\Models\PackageRequest;
 use App\Models\UmrahEnquire;
 use Livewire\Component;
+use App\Models\mainPackage;
 use Livewire\Attributes\Layout;
 
 
@@ -42,7 +43,8 @@ class UserHome extends Component
     }
 
     public function getAllPackage(){
-        return Package::where('delete_status',false)->get();
+        //return Package::where('delete_status',false)->get();
+        return mainPackage::where('delete_status',1)->get();
     }
 
     public function openBrowcher($packageId){

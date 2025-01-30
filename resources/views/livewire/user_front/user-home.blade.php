@@ -3,7 +3,7 @@
             <div class="container-fluid header bg-white p-0">
             <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
                 <div class="col-md-12 animated fadeIn" style="padding: 0;">
-                    <img class="img-fluid" src="{{asset('asserts/user/img/haj/mecca1.jpg')}}" alt="" style="width: 100%; height: 50vh; object-fit: cover;">
+                    <img class="img-fluid" src="{{asset('asserts/user/images/ayse.jpg')}}" alt="" style="width: 100%; height: 50vh; object-fit: cover;">
                 </div>
             </div>
         </div>
@@ -45,7 +45,7 @@
         <div class="container-xxl py-5">
             <div class="container">
                 <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                    <h1 class="mb-3">Explore Our Package</h1>
+                    <h1 class="mb-2">Explore Our <span class="text-primary text-uppercase">Package</span></h1>
                     <p>Choose the Perfect Package for Your Needs</p>
                 </div>
                

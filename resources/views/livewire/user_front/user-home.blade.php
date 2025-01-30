@@ -95,37 +95,16 @@
                             <div class="row g-5 align-items-center">
                                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                                     <div class="about-img position-relative overflow-hidden p-5 pe-0">
-                                    <img class="img-fluid rounded w-100" style="height: 20rem;"  src="{{Storage::exists($package->photo_path) ? Storage::url($package->photo_path) : asset('asserts/user/img/haj/masque.jpg')}}" alt="">
+                                    <img class="img-fluid rounded w-100" style="height: 20rem;"  src="{{Storage::exists($package->packageImage) ? Storage::url($package->packageImage) : asset('asserts/user/img/haj/masque.jpg')}}" alt="">
                                     </div>
                                 </div>
                                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                                    <h1 class="mb-4">{{ ucfirst($package->package_name) }}</h1>
-                                    <p class="mb-4">Experience a spiritual journey like never before with our  Umrah Package. Enjoy premium accommodation, exquisite catering, and seamless transport services.</p>
+                                    <h1 class="mb-4">{{ ucfirst($package->name) }}</h1>
+                                    <p class="mb-4">{{$package->description}}</p>
                                     <p><i class="fa fa-check text-primary me-3"></i>Tempor erat elitr rebum at clita</p>
                                     <p><i class="fa fa-check text-primary me-3"></i>Aliqu diam amet diam et eos</p>
                                     <p><i class="fa fa-check text-primary me-3"></i>Clita duo justo magna dolore erat amet</p>
-                                    <div class="d-flex mb-3" style="font-size: 12px;">
-                                        <small class="border-end me-3 pe-3">
-                                            <i class="fa-solid fa-plane-departure text-primary me-2"></i>Sharing : <span><span style="font-size: 18px;">{{$package->sharing}}</span>.AED</span>
-                                        </small>
-                                        <small class="border-end me-3 pe-3">
-                                            <i class="fa-solid fa-plane-departure text-primary me-2"></i>Quint :  <span><span style="font-size: 18px;">{{$package->quint}}</span>.AED</span>
-                                        </small>
-                                        <small class="me-3 pe-3">
-                                            <i class="fa-solid fa-plane-departure text-primary me-2"></i>Quad : <span><span style="font-size: 18px;">{{$package->quad}}</span>.AED</span>
-                                        </small>
-                                    </div>
-                                    <div class="d-flex mb-3" style="font-size: 12px;">
-                                        <small class="border-end me-3 pe-3">
-                                            <i class="fa-solid fa-plane-departure text-primary me-2"></i>Triple : <span><span style="font-size: 18px;">{{$package->triple}}</span>.AED</span>
-                                        </small>
-                                        <small class="border-end me-3 pe-3">
-                                            <i class="fa-solid fa-plane-departure text-primary me-2"></i>Double :  <span><span style="font-size: 18px;">{{$package->double}}</span>.AED</span>
-                                        </small>
-                                        <small class="me-3 pe-3">
-                                            <i class="fa-solid fa-plane-departure text-primary me-2"></i>Single : <span><span style="font-size: 18px;">{{$package->single}}</span>.AED</span>
-                                        </small>
-                                    </div>
+
                                         <div style="display: flex;justify-content: space-around;">
                                             <a href="" class="btn btn-primary py-3 px-4 me-2"><i class="fa fa-phone-alt me-2"></i>Make A Call</a>
                                             <a href="" class="btn btn-dark py-3 px-4"><i class="fa fa-calendar-alt me-2"></i>Get Appoinment</a>

@@ -6,7 +6,7 @@
                     <div class="icon p-2 me-2">
                         <a href="{{route('layouts.app')}}" class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
                             {{-- <h1 class="m-0 text-primary text-uppercase">HajUmrah</h1> --}}
-                            <img style="height:7rem;" src="{{asset('asserts/user/img/haj/RAHAT_UMRAH_LOGO.png')}}" alt="rahat_logo">
+                            <img style="height:5rem;" src="{{asset('asserts/user/img/haj/RAHAT_UMRAH_LOGO.png')}}" alt="rahat_logo">
                         </a>
                     </div>
                 </a>
@@ -16,16 +16,22 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto">
                         <div class="nav-item dropdown">
-                            <a href="{{asset('images/umrah_Icon.png')}}" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Umrah</a>
+                        <a href="{{route('about')}}"  class="nav-link  d-flex flex-lg-column flex-row align-items-center text-center zoom-effect" data-bs-toggle="dropdown">
+                                        <img style="height:50px;" src="{{asset('asserts/user/images/navicons/UMRAH.png')}}" alt="">
+                                        <div class="d-flex"><span>Umrah</span><i class="fa fa-chevron-down mx-2 my-1"></i> </div> </a>
                             <div class="dropdown-menu rounded-0 m-0">
                                 <a href="{{route('umrah-by-bus-from-uae')}}" class="dropdown-item">Fixed Group Departures</a>
                                 <a href="{{route('coming-soon')}}" class="dropdown-item">Umrah Land Packages</a>
                                 <!-- <a href="property-agent.html" class="dropdown-item">Property Agent</a> -->
                             </div>
                         </div>
-                        <a href="{{route('about')}}" class="nav-item nav-link">Ramzaan</a>
+                        <a href="{{route('about')}}" class="nav-item nav-link">
+                            <img style="height:50px;" src="{{asset('asserts/user/images/navicons/ramzan.png')}}" alt="">
+                            <div class="d-flex"><span>Ramzaan</span> </div> </a>
                         <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Ziyart</a>
+                            <a href="#" class="nav-link " data-bs-toggle="dropdown">
+                            <img style="height:50px;" src="{{asset('asserts/user/images/navicons/ZIYARAT.png')}}" alt="">
+                            <div class="d-flex"><span>Ziyart</span><i class="fa fa-chevron-down mx-2 my-1"></i> </div></a>
                             <div class="dropdown-menu rounded-0 m-0">
                                 <a href="{{route('coming-soon')}}" class="dropdown-item">Jordan</a>
                                 <a href="{{route('coming-soon')}}" class="dropdown-item">Baghdad</a>
@@ -36,7 +42,9 @@
                             </div>
                         </div>
                         <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Hajj</a>
+                            <a href="#" class="nav-link " data-bs-toggle="dropdown">
+                            <img style="height:50px;" src="{{asset('asserts/user/images/navicons/Hajj.png')}}" alt="">
+                            <div class="d-flex"><span>Hajj</span><i class="fa fa-chevron-down mx-2 my-1"></i> </div></a>
                             <div class="dropdown-menu rounded-0 m-0">
                                 <a href="{{route('hajj.bybus')}}" class="dropdown-item">Short Hajj</a>
                                 <a href="{{route('hajj.bybus.long')}}" class="dropdown-item">Long Hajj</a>
@@ -45,12 +53,24 @@
                         </div>
 
 
-                        <a href="{{route('hotels')}}" class="nav-item nav-link active">Hotels</a>
-                        <a href="{{route('saudi-visa')}}" class="nav-item nav-link">Visa</a>
-                        <a href="{{route('sightseeing')}}" class="nav-item nav-link">Transfers</a>
-                        <a href="{{route('catring')}}" class="nav-item nav-link">Sightseeing</a>
-                        <a href="{{route('partner-with-us')}}" class="nav-item nav-link">Catering</a>
-                        <a href="{{route('contact-us')}}" class="nav-item nav-link">Holidays</a>
+                        <a href="{{route('hotels')}}" class="nav-item nav-link active">
+                            <img style="height:50px;" src="{{asset('asserts/user/images/navicons/hotel.png')}}" alt="">
+                            <div class="d-flex"><span>Hotels</span></div></a>
+                        <a href="{{route('saudi-visa')}}" class="nav-item nav-link">
+                            <img style="height:50px;" src="{{asset('asserts/user/images/navicons/visa.png')}}" alt="">
+                            <div class="d-flex"><span>Visa</span> </div></a>
+                        <a href="{{route('sightseeing')}}" class="nav-item nav-link">
+                            <img style="height:50px;" src="{{asset('asserts/user/images/navicons/transport.png')}}" alt="">
+                            <div class="d-flex"><span>Transfers</span></div></a>
+                        <a href="{{route('catring')}}" class="nav-item nav-link">
+                            <img style="height:50px;" src="{{asset('asserts/user/images/navicons/Sightseeing.png')}}" alt="">
+                            <div class="d-flex"><span>Sightseeing</span> </div></a>
+                        <a href="{{route('partner-with-us')}}" class="nav-item nav-link">
+                            <img style="height:50px;" src="{{asset('asserts/user/images/navicons/Catering.png')}}" alt="">
+                            <div class="d-flex"><span>Catering</span> </div></a>
+                        <a href="{{route('contact-us')}}" class="nav-item nav-link">
+                            <img style="height:50px;" src="{{asset('asserts/user/images/navicons/Holiday.png')}}" alt="">
+                            <div class="d-flex"><span>Holidays</span> </div></a>
                         <!-- <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Property</a>
                             <div class="dropdown-menu rounded-0 m-0">

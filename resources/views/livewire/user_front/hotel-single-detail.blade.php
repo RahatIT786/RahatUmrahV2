@@ -1,6 +1,6 @@
-<section class="hotel-page" style="margin-bottom:100px">
+<section class="hotel-page" style="margin-bottom:100px ; margin-top:0px">
     <!-- Hotel Banner Start -->
-    <div class="container-fluid p-0 mb-5 hotel-banner">
+    <!-- <div class="container-fluid p-0 mb-5 hotel-banner">
         <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -14,7 +14,15 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
+    <div class="container-fluid header bg-white p-0">
+            <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
+                <div class="col-md-12 animated fadeIn" style="padding: 0;">
+                    <img class="img-fluid" src="{{ asset('asserts/user/img/haj/mecca1.jpg') }}" alt="" style="width: 100%; height: 50vh; object-fit: cover;background-size: cover; background-position: center;">
+                </div>
+            </div>
+        </div>
+
     <!-- Hotel Banner End -->
 
     <!-- Hotel Details Start -->
@@ -79,37 +87,6 @@
                 <!-- Right Section: Booking Form -->
                 <div class="col-lg-3" style="margin-top:70px">
                            <!-- Rating Section -->
-                            <div class="mb-3">
-                            <h3 class="mb-3 section-title text-start text-primary text-uppercase">Rating</h3>
-                            <div class="mb-5">
-                            @if($hotel_detail->hotelStarRating == '2')
-                                <div class="ps-2">
-                                    <i class="fa fa-star text-warning"></i>
-                                    <i class="fa fa-star text-warning"></i>
-                                </div>
-                            @elseif($hotel_detail->hotelStarRating == '3')
-                                <div class="ps-2">
-                                  <i class="fa fa-star text-warning"></i>
-                                  <i class="fa fa-star text-warning"></i>
-                                  <i class="fa fa-star text-warning"></i>
-                                </div>
-                            @elseif($hotel_detail->hotelStarRating == '4')
-                                <div class="ps-2">
-                                  <i class="fa fa-star text-warning"></i>
-                                  <i class="fa fa-star text-warning"></i>
-                                  <i class="fa fa-star text-warning"></i>
-                                  <i class="fa fa-star text-warning"></i>
-                                </div>
-                            @elseif($hotel_detail->hotelStarRating == '5')
-                                 <div class="ps-2">
-                                   <i class="fa fa-star text-warning"></i>
-                                   <i class="fa fa-star text-warning"></i>
-                                   <i class="fa fa-star text-warning"></i>
-                                   <i class="fa fa-star text-warning"></i>
-                                </div>
-                            @endif
-                        </div>
-                    </div>
                             
                             <!-- Price Section -->
                             <div class="mb-3">

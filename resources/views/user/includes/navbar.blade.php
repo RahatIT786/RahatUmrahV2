@@ -1,6 +1,6 @@
 <section>
             <!-- Navbar Start -->
-            <div class="container-fluid nav-bar bg-transparent">
+            <div class="container-fluid nav-bar bg-transparent" style="margin-top: 0px;">
             <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
                 <a href="index.html" class="navbar-brand d-flex align-items-center text-center">
                     <div class="icon p-2 me-2">

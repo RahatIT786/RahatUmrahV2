@@ -221,9 +221,10 @@
 
 
 /*** About ***/
+
 .about-img img {
     position: relative;
-    z-index: 2;
+   z-index: 2;
 }
 
 .about-img::before {
